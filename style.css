@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#game {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#click-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#shop {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shop-item {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.shop-item:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}

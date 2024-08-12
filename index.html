@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Clicker Game</h1>
+    <div id="game">
+        <button id="click-button">Click me!</button>
+        <p>Score: <span id="score">0</span></p>
+    </div>
+
+    <div id="shop">
+        <h2>Shop</h2>
+        <button class="shop-item" data-cost="10" data-multiplier="1">Double Clicks (Cost: 10)</button>
+        <button class="shop-item" data-cost="50" data-multiplier="2">Triple Clicks (Cost: 50)</button>
+        <button class="shop-item" data-cost="100" data-multiplier="3">Quadruple Clicks (Cost: 100)</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
